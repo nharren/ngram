@@ -1,0 +1,41 @@
+@import '../../styles/lib/vars';
+
+.photo-form {
+  background: url('../../assets/noise.png') #dadada;
+  padding: $gutter;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px -4px rgba(0, 0, 0, 0.75);
+
+  & img {
+    max-height: 300px;
+  }
+
+  & input {
+    display: block;
+    margin: $gutter / 3 auto;
+    padding: $input-padding;
+    font-size: $input-font-size;
+    border-radius: $input-border-radius;
+  }
+ 
+  & button {
+    margin-top: $gutter / 2;
+    padding: $input-padding * 3 / 4 $input-padding * 2;
+    font-size: 1rem;
+    border-radius:  3px;
+    border: none;
+    background: url('../../assets/noise.png') #666;
+    color: white;
+  }
+
+  & textarea {
+    display: block;
+    width: 100%;
+    min-height: 100px;
+    font-size: inherit;
+    font-family: helvetica;
+    padding: 10px;
+    box-sizing: border-box;    
+  }
+}

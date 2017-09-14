@@ -1,0 +1,14 @@
+@import '../../styles/lib/vars';
+
+.menu-item {
+  display: inline;
+  margin-left: $gutter / 2;
+  font-size: 1.125rem;
+  color: $primary-dark;
+  font-family: $font-family;
+
+  & a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,8 @@
+@import '../../styles/lib/vars';
+
+.avatar {
+  & img {
+    height: 48px;
+    margin-right: $gutter / 2;
+  }
+}

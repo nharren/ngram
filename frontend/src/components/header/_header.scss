@@ -1,0 +1,14 @@
+@import '../../styles/lib/vars';
+
+header {
+  min-height: 75px;
+  background: $bookend-background;
+  box-shadow: $bookend-shadow;
+
+  display: flex;
+  align-items: center;
+}
+
+#logout-button {
+  margin-right: $gutter / 2;
+}

@@ -1,0 +1,27 @@
+@import '../../styles/lib/vars';
+
+#logo {
+  margin: 0 $gutter;
+  flex: 1;
+}
+
+#logo-text {
+  font-size: $logo-size;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  color: $primary-dark;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#logo-image {
+  height: 48px;
+  width: 48px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: $gutter / 4;
+}
+
+#path3869, #path3853 {
+  fill: $primary-dark;
+}
